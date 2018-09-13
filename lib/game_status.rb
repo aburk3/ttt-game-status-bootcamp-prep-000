@@ -34,5 +34,5 @@ WIN_COMBINATIONS = [
   end
   
   def over?(board)
-    !won?(board) || draw?(board) || full?(board)
+    won?(board) || draw?(board) || full?(board)
   end
